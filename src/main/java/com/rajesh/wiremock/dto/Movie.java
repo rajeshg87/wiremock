@@ -11,8 +11,8 @@ import java.time.LocalDate;
 @AllArgsConstructor
 public class Movie {
     public Long movie_id;
-    public String cast;
     public String name;
-    public LocalDate release_date;
+    public String cast;
     public Integer year;
+    public LocalDate release_date;
 }

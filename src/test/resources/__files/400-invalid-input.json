@@ -1,0 +1,7 @@
+{
+  "timestamp": "{{now}}",
+  "status": 400,
+  "error": "Bad Request",
+  "message": "No Movie Available with the given Id - {{request.path.[3]}}",
+  "path": "/movieservice/v1/movie/{{request.path}}"
+}
